@@ -83,13 +83,4 @@ Mantiene un registro del historial de transacciones realizadas durante la ejecuc
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una idea para mejorar el proyecto, por favor abre un issue o envía un pull request.
 
-## Licencia
-Este proyecto está licenciado bajo la MIT License.
-## Contacto
-Para cualquier pregunta o comentario, puedes contactar al desarrollador a través de [correo electrónico] o [redes sociales].
-
-### Personalización
-- Reemplaza `[correo electrónico]` y `[redes sociales]` con la información de contacto deseada.
-- Si tienes más dependencias o detalles específicos sobre tu proyecto, agrégalos a las secciones correspondientes.
-
 Este `README.md` proporciona una guía detallada sobre el proyecto, su configuración, ejecución y uso. Puedes modificarlo según tus necesidades específicas.
