@@ -23,7 +23,7 @@ El proyecto está organizado en varios paquetes y clases para mantener una estru
 
 1. Clona el repositorio o descarga el código fuente.
    ```bash
-   git clone https://github.com/tu-repositorio/conversor-divisas.git
+   git clone https://github.com/Decxis/converter-Project.git
 Abre el proyecto en tu IDE preferido (Eclipse, IntelliJ, etc.).
 
 Asegúrate de tener la librería Gson instalada:
