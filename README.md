@@ -40,31 +40,33 @@ Copiar código
 implementation 'com.google.code.gson:gson:2.8.9'
 Reemplaza la clave de la API (YOUR_API_KEY) con tu clave real de ExchangeRate en CurrencyConverterService.java.
 
-##Ejecución del Proyecto
+## Ejecución del Proyecto
 Navega al directorio raíz del proyecto.
 Ejecuta el proyecto usando tu IDE o desde la línea de comandos:
-´´´bash
-java -cp out/production/conversor-divisas com.currencyconverter.App
+```
+ java -cp out/production/conversor-divisas com.currencyconverter.App
+```
+
 (Asegúrate de compilar el proyecto primero si es necesario).
-Funcionalidades
+## Funcionalidades
 Menú Principal
 El menú principal presenta las siguientes opciones:
 
 Convertir divisas: Permite convertir un monto de una divisa a otra seleccionada.
 Ver tasa de cambio: Muestra la tasa de cambio entre dos divisas seleccionadas.
 Ver historial de transacciones: Muestra un historial de todas las conversiones realizadas durante la sesión.
-Salir: Cierra la aplicación.
-Selección de Divisas
+### Salir: Cierra la aplicación.
+### Selección de Divisas
 El usuario puede seleccionar divisas mediante un menú numerado que muestra el nombre completo y el código de cada divisa.
-Historial de Transacciones
+### Historial de Transacciones
 Se almacena un historial de conversiones realizadas durante la sesión actual. El historial incluye la cantidad convertida, las divisas de origen y destino, la tasa de cambio utilizada y el resultado.
 Ejemplo de Uso
-Selecciona la opción "Convertir divisas" en el menú.
-Selecciona la divisa de origen (por ejemplo, USD).
-Selecciona la divisa de destino (por ejemplo, EUR).
-Ingresa la cantidad a convertir.
-El sistema muestra el resultado de la conversión.
-Estructura de Clases
+- Selecciona la opción "Convertir divisas" en el menú.
+- Selecciona la divisa de origen (por ejemplo, USD).
+- Selecciona la divisa de destino (por ejemplo, EUR).
+- Ingresa la cantidad a convertir.
+- El sistema muestra el resultado de la conversión.
+# Estructura de Clases
 App.java
 Clase principal que contiene el menú interactivo. Es responsable de manejar la entrada del usuario y delegar las operaciones a CurrencyConverterService.
 
