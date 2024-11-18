@@ -7,7 +7,7 @@ import com.google.gson.JsonParser;
 import java.util.Scanner;
 
 public class CurrencyConverterService {
-    private static final String API_KEY = "f49ce3e10591281eda876ee4"; // Reemplaza con tu clave de la API
+    private static final String API_KEY = "TU_APIK"; // Reemplaza con tu clave de la API
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
 
     private static final Currency[] CURRENCIES = {
